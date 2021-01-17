@@ -1,3 +1,20 @@
 body {
     font-family: 'Quicksand', sans-serif;
 }
+.navbar-brand {
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 2em;
+}
+.navbar-dark .navbar-toggler {
+    color: rgb(255 255 255);
+}
+@media (max-width:575px) {
+    .navbar-brand {
+        margin-left: 45%;
+    }
+}
+
+.navbar {
+    font-weight: 600;
+}
