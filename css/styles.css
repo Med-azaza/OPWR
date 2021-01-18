@@ -33,7 +33,9 @@ body {
     text-align: center;
     font-weight: 600;
     padding-bottom: 1%;
-
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
 }
 
 #main {
