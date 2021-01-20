@@ -196,6 +196,15 @@ a:link, a:visited, a:active, a:hover {
 #nl {
     display: none;
 }
+footer {
+    float: left;
+    width: 100%;
+    height: 100px;
+    text-align:center;
+    background-color: rgb(63, 60, 60);
+    color: white;
+    padding-top: 70px;
+}
 
 
 
