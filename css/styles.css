@@ -78,7 +78,6 @@ a:link, a:visited, a:active, a:hover {
 #desc {
     font-weight: 600;
     float: left;
-    margin-right: 30%;
 }
 #title {
     font-weight: 700;
@@ -248,6 +247,7 @@ a:link, a:visited, a:active, a:hover {
     }
     #firstsection, #secondsection {
         width: 98%;
+        padding: 0;
 
     }
     #header {
@@ -272,7 +272,13 @@ a:link, a:visited, a:active, a:hover {
         padding: 0;
         border-radius: 50%;
         border: 2px solid white;
-} 
+}
+    #recitems {
+        padding-left: 0;
+    }
+    #runes {
+        margin-left: 30%;
+    }
 }
 @media (max-width:991px) and (min-width:768px)  {
     .champcard {
